@@ -6,3 +6,6 @@ This is the code repository to accompany a submission to DAFx 2024. Included are
 - `Figures.ipynb`: A smaller notebook used to generate the figures in the Methods section of our paper.
 - `Frequency.ipynb`: A self-contained notebook demonstrating the frequency-detection algorithm described in Appendix B.
 - `Scope`: Source code for a realtime C++ visualization application. A demonstration video is available [here](https://youtu.be/Sl570aeDftM). The project depends on SDL, PortAudio, Eigen3, and RtMidi. 
+
+
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/raw/main/Exports/2024.04.08,%2018.54.17.mp4
