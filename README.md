@@ -9,6 +9,6 @@ This is the code repository to accompany a submission to DAFx 2024. Included are
 
 
 
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/8583e43c-3b56-4e06-94e1-7a4f336de471
+
 
 <video src="[https://user-images.githubusercontent.com/aaa.mp4](https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/blob/6249c3c0bfc04c9a87b1fd772f427e498959b0a6/Exports/2024.04.08%2C%2018.54.17.mp4)"></video>
