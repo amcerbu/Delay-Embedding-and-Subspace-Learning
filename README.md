@@ -7,6 +7,22 @@ This is the code repository to accompany a submission to DAFx 2024. Included are
 - `Frequency.ipynb`: A self-contained notebook demonstrating the frequency-detection algorithm described in Appendix B.
 - `Scope`: Source code for a realtime C++ visualization application. A demonstration video is available [here](https://youtu.be/Sl570aeDftM). The project depends on SDL, PortAudio, Eigen3, and RtMidi. 
 
+A clarinet playing $B3$, first pianissimo, then mezzo-forte, then fortissimo. In all three cases we set the embedding dimension $N = 48$ and analysis dimension $k = 2$. The color of the gray curve records
+the distance between the $48$-dimensional embedded curve and the projection plane: dark regions of curve indicate that the projected picture doesn't "fit" completely in the plane of projection. This is
+especially the case for the third video (fortissimo); the fourth video below is our algorithm with analysis dimension $k = 4$ -- in which case we visualize the projections of our four-dimensional curve to the six two-dimensional
+coordinate planes in $\mathbf R^4$. Notice that the curve is lighter, since it "fits" better in this larger-dimensional subspace. 
+
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/c0b11fe9-2ae5-4808-946f-d3528e631e76
+
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/bb948c32-0fda-47d5-b76e-9cd5a9722ce5
+
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/08e00f3c-cf22-4bf5-8cb1-84c9c89582f8
+
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/d14c0acf-ab31-4aac-885e-e190953530b5
+
+
+
+
 A cello playing $B3$, mezzo-forte. The embedding dimension is $N = 23$ and projection dimension $k = 2$. Note the tracking of the colored curve with the vibrato pitch (the colorful curve records the rows of $A$, 
 the matrix whose columns span the $2$-dimensional subspace of best fit in $\mathbf R^{23}$). 
 
@@ -14,8 +30,8 @@ https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/
 
 
 
-Visualizing a synthetic waveform that becomes brighter (approaching a sawtooth wave), then darker: embedding dimension $N = 48$ and projection dimension $k = 4$ (note that in order to 
-display the four-dimensional curve we dislay its projection to the six coordinate planes in $\mathbf R^4$). 
+Visualizing a synthetic waveform that becomes brighter (approaching a sawtooth wave), then darker: embedding dimension $N = 48$ and projection dimension $k = 4$ (as with the clarinet example
+above, in order to display the four-dimensional curve we display its projection to the six coordinate planes in $\mathbf R^4$). 
 
 https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/8583e43c-3b56-4e06-94e1-7a4f336de471
 
