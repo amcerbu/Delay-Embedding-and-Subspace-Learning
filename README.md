@@ -8,4 +8,6 @@ This is the code repository to accompany a submission to DAFx 2024. Included are
 - `Scope`: Source code for a realtime C++ visualization application. A demonstration video is available [here](https://youtu.be/Sl570aeDftM). The project depends on SDL, PortAudio, Eigen3, and RtMidi. 
 
 
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/raw/main/Exports/2024.04.08,%2018.54.17.mp4
+
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/8583e43c-3b56-4e06-94e1-7a4f336de471
+
