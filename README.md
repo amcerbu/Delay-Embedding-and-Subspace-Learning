@@ -7,6 +7,10 @@ This is the code repository to accompany a submission to DAFx 2024. Included are
 - `Frequency.ipynb`: A self-contained notebook demonstrating the frequency-detection algorithm described in Appendix B.
 - `Scope`: Source code for a realtime C++ visualization application. A demonstration video is available [here](https://youtu.be/Sl570aeDftM). The project depends on SDL, PortAudio, Eigen3, and RtMidi. 
 
+Orchestral samples -- visualizations of orchestral sounds, played at different dynamics, pitches, and by different 
+instruments -- can be found in the `Vid` directory. Below are attached a handful of standalone visualizations for 
+reference. 
+
 A clarinet playing $B3$, first pianissimo, then mezzo-forte, then fortissimo. In all three cases we set the embedding dimension $N = 48$ and analysis dimension $k = 2$. The color of the gray curve records
 the distance between the $48$-dimensional embedded curve and the projection plane: dark regions of curve indicate that the projected picture doesn't "fit" completely in the plane of projection. This is
 especially the case for the third video (fortissimo); the fourth video below is our algorithm with analysis dimension $k = 4$ -- in which case we visualize the projections of our four-dimensional curve to the six two-dimensional
