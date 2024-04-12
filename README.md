@@ -30,15 +30,18 @@ https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/
 Below is a synthesized glissando. Notice the changes in shape -- due to aliasing -- in the projections of low-dimensional embeddings (the first row). Notice also
 how the shapes of the colorful curves change as pitch changes.
 
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/25db16c7-1057-4aaf-8852-8bedfa14ff72
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/409c4004-50a6-4101-8aee-476ed343620b
+
 
 Below is a synthesized sum of sinusoids whose harmonicity is modulated. 
 
-[video]
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/4ea6764c-f379-47b7-8e92-dfddd993449b
+
 
 Below is a synthesized sum of sinusoids whose brightness is modulated. 
 
-[video]
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/37b429a7-5717-40bc-b552-39f0271c9d63
+
 
 
 ## Visualizations of OrchideaSOL
