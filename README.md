@@ -20,6 +20,32 @@ matrix is often a bandpass filterbank which selects for the high-amplitude frequ
 arc of a circle; the angle through which this arc turns corresponds to the frequency detected. This notion is only a heuristic; for exact reconstruction 
 of frequency information using our methods see `Frequency.ipynb`.
 
+## Visualizations of OrchideaSOL
+
+We have visualized a number of orchestral samples from the OrchideaSOL database: for a number of instruments, each playing a number of pitches at three different dynamics.
+Those can be found in the `Vid` directory; a few are selected as examples below. These visualizations have been produced with the same four choices of parameters as above. As with the synthetic visualizations, the
+shading of the gray curve records distance to projecting plane, and the colorful dots record the choice of projection. 
+
+
+An accordion playing $C3$. 
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/5816ea1c-149b-4a44-9487-655d9a16584a
+
+A bassoon playing $C3$. 
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/c7f33a45-a16f-401c-bbdf-832ac051f56f
+
+An alto saxophone playing $D4$. Notice how the high partials appear only after the fundamental is at resonance. 
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/7f6ebc24-d231-49f0-85f0-38ce7cd65256
+
+A flute playing $C4$. Note the overall consistency of the shape despite the presence of air noise. 
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/b5d85add-ad73-49dd-b97b-0bdd7720e3ea
+
+A viola playing $D4$. Note the sensitivity of the image to the slight fluctuations in bow pressure and speed. 
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/7df11750-394c-46ba-a2f4-0ebb86ddab00
+
+A contrabass playing $G2$. Note, toward the end, that the string vibrates inharmonically without the phase-locking from the bow. 
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/083a30b0-e34e-48b4-93e9-8b3ea2feabc5
+
+
 ## Synthetic sounds
 
 Below is a synthesized tone created by passing white noise through a harmonically tuned collection of two-pole bandpass filters. The resonance of those filters
@@ -43,28 +69,6 @@ Below is a synthesized sum of sinusoids whose brightness is modulated.
 https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/37b429a7-5717-40bc-b552-39f0271c9d63
 
 
-
-## Visualizations of OrchideaSOL
-
-We have visualized a number of orchestral samples from the OrchideaSOL database: for a number of instruments, each playing a number of pitches at three different dynamics.
-Those can be found in the `Vid` directory; a few are selected as examples below. These visualizations have been produced with the same four choices of parameters as above. As with the synthetic visualizations, the
-shading of the gray curve records distance to projecting plane, and the colorful dots record the choice of projection. 
-
-
-
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/5816ea1c-149b-4a44-9487-655d9a16584a
-
-
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/c7f33a45-a16f-401c-bbdf-832ac051f56f
-
-
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/7f6ebc24-d231-49f0-85f0-38ce7cd65256
-
-
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/b5d85add-ad73-49dd-b97b-0bdd7720e3ea
-
-
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/7df11750-394c-46ba-a2f4-0ebb86ddab00
 
 
 
