@@ -23,33 +23,36 @@ of frequency information using our methods see `Frequency.ipynb`.
 ## Visualizations of OrchideaSOL
 
 We have visualized a number of orchestral samples from the OrchideaSOL database: for a number of instruments, each playing a number of pitches at three different dynamics.
-Those can be found in the `Vid` directory; a few are selected as examples below. These visualizations have been produced with the same four choices of parameters as above. As with the synthetic visualizations, the
+Those can be found in the `Orch` directory; a few are selected as examples below. These visualizations have been produced with the same four choices of parameters as above. As with the synthetic visualizations, the
 shading of the gray curve records distance to projecting plane, and the colorful dots record the choice of projection. 
 
 
 An accordion playing $C3$. 
 
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/5816ea1c-149b-4a44-9487-655d9a16584a
+
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/824a05bd-d10f-4bbe-ac51-80356c40af2c
 
 A bassoon playing $C3$. 
 
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/c7f33a45-a16f-401c-bbdf-832ac051f56f
+
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/03d187e5-7635-4d6c-ab80-4a7baba4637f
 
 An alto saxophone playing $D4$. Notice how the high partials appear only after the fundamental is at resonance. 
 
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/7f6ebc24-d231-49f0-85f0-38ce7cd65256
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/6418726b-f265-40da-9ba8-3d2ef07c2b1e
 
-A flute playing $C4$. Note the overall consistency of the shape despite the presence of air noise. 
+A flute playing $C4$. Note the overall consistency of the shape despite the presence of air noise. Note also that
+the visualizations created with larger $N$ have filtered out the noise (the curves are smoother). 
 
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/b5d85add-ad73-49dd-b97b-0bdd7720e3ea
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/668e4073-610c-48fc-a1c5-dfc78c893cee
 
 A viola playing $D4$. Note the sensitivity of the image to the slight fluctuations in bow pressure and speed. 
 
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/7df11750-394c-46ba-a2f4-0ebb86ddab00
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/797e9ad7-f91c-419b-9dd3-cfa5bcf20608
 
 A contrabass playing $G2$. Note, toward the end, that the string vibrates inharmonically without the phase-locking from the bow. 
 
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/083a30b0-e34e-48b4-93e9-8b3ea2feabc5
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/e74a815b-12f0-48b7-ad3b-774f930883f8
 
 
 ## Synthetic sounds
@@ -57,22 +60,28 @@ https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/
 Below is a synthesized tone created by passing white noise through a harmonically tuned collection of two-pole bandpass filters. The resonance of those filters
 is adjusted over the course of the video. Notice how the projection information stabilizes when the sound is pitched. 
 
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/dbb8dd2b-fd4f-4930-8d06-41cbed02f3ab
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/b6ae26a1-2d43-4c79-b680-601ac9105f24
+
+
 
 Below is a synthesized glissando. Notice the changes in shape -- due to aliasing -- in the projections of low-dimensional embeddings (the first row). Notice also
 how the shapes of the colorful curves change as pitch changes.
 
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/409c4004-50a6-4101-8aee-476ed343620b
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/a3c8e77b-4d08-4e1a-8aa0-f5b24bf09882
+
+
 
 
 Below is a synthesized sum of sinusoids whose harmonicity is modulated. 
 
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/4ea6764c-f379-47b7-8e92-dfddd993449b
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/4c103475-01a1-4334-a117-09fc02e3fd1f
+
+
 
 
 Below is a synthesized sum of sinusoids whose brightness is modulated. 
 
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/37b429a7-5717-40bc-b552-39f0271c9d63
+https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/426e71fc-6813-4fbf-a682-f166fcf04ecb
 
 
 
@@ -88,29 +97,6 @@ A clarinet playing $B3$, with embedding dimension $N = 48$ and analysis dimensio
 draw its projections to the six two-dimensional coordinate planes in $\mathbf R^4$. 
 
 https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/d14c0acf-ab31-4aac-885e-e190953530b5
-
-<!---
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/c0b11fe9-2ae5-4808-946f-d3528e631e76
-
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/bb948c32-0fda-47d5-b76e-9cd5a9722ce5
-
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/08e00f3c-cf22-4bf5-8cb1-84c9c89582f8
-
-A cello playing $B3$, mezzo-forte. The embedding dimension is $N = 23$ and projection dimension $k = 2$. Note the tracking of the colored curve with the vibrato pitch (the colorful curve records the rows of $A$, 
-the matrix whose columns span the $2$-dimensional subspace of best fit in $\mathbf R^{23}$). 
-
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/8a219a0b-33cb-4cfd-ad05-410b2bc5ca5c
-
-
-Visualizing a synthetic waveform that becomes brighter (approaching a sawtooth wave), then darker: embedding dimension $N = 48$ and projection dimension $k = 4$ (as with the clarinet example
-above, in order to display the four-dimensional curve we display its projection to the six coordinate planes in $\mathbf R^4$). 
-
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/8583e43c-3b56-4e06-94e1-7a4f336de471
-
-Visualizing a synthetic waveform made by stacking prime harmonics, each with an independent decay parameter. Here again $N = 48$ and $k = 4$. 
-
-https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/44ef5f3e-2582-4f12-9eac-07fa0e071f9a
---->
 
 Visualizing a short bass clarinet melody, $N = 15$ and again $k = 4$. 
 
