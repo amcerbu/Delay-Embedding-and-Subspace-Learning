@@ -338,5 +338,5 @@ def noisy(f0, lfo, T, overtones, darkness, start, end, SR = 48000):
     x = amps @ y
     x /= np.max(np.abs(x))
         
-    return np.real(x), decays, params
+    return np.real(x), params
 
