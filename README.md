@@ -1,6 +1,6 @@
 # Audio Visualization via Delay Embedding & Subspace Learning
 
-This is the code repository to accompany a submission to DAFx 2024. Included are three Jupyter notebooks and a C++ application.
+This is the code repository to accompany a submission to DAFx 2024. Included are two Jupyter notebooks and a C++ application.
 
 - `Figures.ipynb`: The notebook used to generate the figures in the Methods section of our paper, and to generate all videos in this repository.
 - `Frequency.ipynb`: A self-contained notebook demonstrating the frequency-detection algorithm described in Appendix B.
