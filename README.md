@@ -28,21 +28,27 @@ shading of the gray curve records distance to projecting plane, and the colorful
 
 
 An accordion playing $C3$. 
+
 https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/5816ea1c-149b-4a44-9487-655d9a16584a
 
 A bassoon playing $C3$. 
+
 https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/c7f33a45-a16f-401c-bbdf-832ac051f56f
 
 An alto saxophone playing $D4$. Notice how the high partials appear only after the fundamental is at resonance. 
+
 https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/7f6ebc24-d231-49f0-85f0-38ce7cd65256
 
 A flute playing $C4$. Note the overall consistency of the shape despite the presence of air noise. 
+
 https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/b5d85add-ad73-49dd-b97b-0bdd7720e3ea
 
 A viola playing $D4$. Note the sensitivity of the image to the slight fluctuations in bow pressure and speed. 
+
 https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/7df11750-394c-46ba-a2f4-0ebb86ddab00
 
 A contrabass playing $G2$. Note, toward the end, that the string vibrates inharmonically without the phase-locking from the bow. 
+
 https://github.com/amcerbu/Delay-Embedding-and-Subspace-Learning/assets/2309180/083a30b0-e34e-48b4-93e9-8b3ea2feabc5
 
 
